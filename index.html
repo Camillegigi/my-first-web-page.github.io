@@ -3,9 +3,14 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Les Mojitos de Camille</title>
+	<title> Les Mojitos de Camille</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <img src="images/logo.png" alt="image de coktail" width="300px" class= "avatar">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body class="text-center">
@@ -16,10 +21,18 @@
     	<div class="line-light"> </div>
     </div>
 
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/banner.jpg);">
+  <div class="container">
+    <h1>Les mojitos de Camille<strong></strong>  <strong></strong>!</h1>
+    <p>Les meilleures recettes de Mojitos sont ici ! </p>
+  </div>
+</div>
+
+
 	<div class="cadre margin-100px">
-	   <h1 class="color-green"> Comment faire un Mojito</h1>
+	   <h1 class="color-green"><i class="fas fa-cocktail"></i>Comment faire un Mojito</h1>
 	   <h2 class ="color-green">Un coktail réussi avec Camille ! </h2>
-	   <h3>C'est quoi un Mojito ?</h3>
+	   <h3> C'est quoi un Mojito ?</h3>
 
 	   <p>Coktail avec du Rhum ! La légende raconte que l'histoire du mojito remonterait au début du xvie siècle (la date de naissance officieuse du prédécesseur du mojito est 1586) 
 	   	<br> 
@@ -29,23 +42,52 @@
 
 
 
-	  <img src="images/mojito.jpg" alt="image de coktail" width="300px" class= "avatar">
+	     <img src="images/mojito.jpg" alt="image de coktail" width="300px" class= "avatar">
 
 
-	  <br>
+	     <br>
 
-	  <a href="https://www.marmiton.org/recettes/recette_mojito_14615.aspx" target="_blank" class="btn-pink">En savoir plus</a>
+	     <a href="https://www.marmiton.org/recettes/recette_mojito_14615.aspx" target="_blank" class="btn-pink">En savoir plus</a>
+	
+
+	<!-- Button trigger modal -->
+	<button type="button" class="btn-pink" data-toggle="modal" data-target="#exampleModal">
+	 Contact
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Mon e-mail</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        camille.girault@efap.com
+	      </div>
+	      <div class="modal-footer">
+	        </button>
+	       
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
     </div>
 
   <div class="cadre margin-100px">
-  	<h4 class="color-green">Un petit tuto vidéo...</h4>
+  	<h4 class="color-green"><i class="fas fa-cocktail"></i>Un petit tuto vidéo...</h4>
   	<iframe width="400" height="400" src="https://www.youtube.com/embed/VRLuazR3-Gc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
  <div class="display-flex margin-100px">
 
  	<div class="cadre text-left margin-bottom-30px">
- 		<h4 class="color-green"> Ingrédients </h4>
+ 		<h4 class="color-green"><i class="fas fa-cocktail"></i>Ingrédients </h4>
  		<ul>
  			<li> 50 g de glace pilée</li>
  			<li> 10 cl de rhum </li>
@@ -73,13 +115,24 @@
 	<img src="images/production1.jpg" alt = "mojito 1" class = "production"> 
 	<img src="images/production2.jpg" alt = "mojito 2" class="production"> 
 	<img src="images/production3.jpg" alt = "mojito 3" class= "production">
+
+
+
 </div>
+
+
+
 
 
 <div class="cadre margin-100px">
 	<h3 class="color-green"> L'adresse où l'on trouve les meilleurs Mojitos de Bordeaux </h3>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.0569388246063!2d-0.5756256495934531!3d44.840773778995946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527daa3c48011%3A0xadcbcdeafb8c0ac0!2sCalle%20Ocho%2C%20Caf%C3%A9%20Cubano!5e0!3m2!1sfr!2sfr!4v1591572625342!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
